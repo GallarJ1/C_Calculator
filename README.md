@@ -4,6 +4,8 @@ Using The Language Specifications below create a Calculator in C
 2. The scanner must be implemented with a function GetNextToken 
 3. The types of tokens are declared as enums and tokens are a struct
 4. The main function calls the parser. The translation is guided by the parser: it gets tokens from the scanner, parses them, and executes the statements. The principal components of the translator are: Main, Parser, and Scanner. 
+5. To build Calc, issuing the command make should be enough. For that to work we need a Makefile
+6. Implement function calls and definitions 
  
 Lexical Rules:
 
